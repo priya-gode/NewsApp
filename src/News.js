@@ -7,8 +7,8 @@ export default function News(props) {
       <div className='news-img'>
         {
           props.article.urlToImage!==null?
-          <img src={props.article.urlToImage}></img>:
-          <img src="https://www.shutterstock.com/image-vector/house-not-available-icon-flat-260nw-1030785001.jpg"></img>
+          <img src={props.article.urlToImage} alt=''></img>:
+          <img src="https://www.shutterstock.com/image-vector/house-not-available-icon-flat-260nw-1030785001.jpg" alt=''></img>
 
         }
         
